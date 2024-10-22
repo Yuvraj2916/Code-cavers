@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="/static/css/about.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">MyPortfolio</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about" class="active">About</a></li>
+                <li><a href="/skills">Skills</a></li>
+                <li><a href="/work">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <div class="container about-content">
+            <div class="photo-container">
+                <div class="back-photo"></div>
+                <div class="image" style="background-image: url('/static/img/profile-photo.jpg');"></div>
+            </div>
+
+            <div class="about-details">
+                <h1>About Me</h1>
+                <p>As a developer, I thrive on crafting seamless user experiences with elegant code. My passion lies in delivering flawless solutions that captivate users and elevate interaction, pushing boundaries to create memorable digital journeys.</p>
+                <p>Driven by a passion for flawless user experiences, I excel in front-end development, crafting elegant solutions that captivate users. With meticulous code, I enhance interaction, striving to leave a lasting impression on every project.</p>
+                <div class="buttons">
+                    <button id="hire"><a href="#" style="color:white">HIRE ME</a></button>
+                    <button id="view" onclick="location.href='/resume'">VIEW RESUME</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MyPortfolio. All rights reserved.</p>
+        <p><a href="/contact">Contact Me</a> | <a href="https://github.com/myprofile">GitHub</a></p>
+    </footer>
+</body>
+</html>
